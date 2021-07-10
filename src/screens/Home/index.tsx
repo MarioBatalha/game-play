@@ -5,11 +5,16 @@ import {
   Image
   } from 'react-native';
 
-import { styles }  from './style';
+import{ styles } from './style';
+import Profile from '../../components/Profile';
 
 const Home = () => {
     return (
-
+        <View>
+          <View style={styles.header}>
+            <Profile />
+          </View>
+        </View>
     );
 }
 
