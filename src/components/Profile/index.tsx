@@ -12,7 +12,7 @@ const Profile = () => {
     return (
         <View style={styles.container}>
 
-        <Avatar urlImage='https://github.com/mariobatalha.png' />
+        <Avatar urlImage='https://avatars.githubusercontent.com/u/37873239?v=4' />
 
           <View>
             <View style={styles.user}>
