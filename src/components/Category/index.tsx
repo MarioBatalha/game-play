@@ -5,6 +5,7 @@ import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { LinearGradient } from 'expo-linear-gradient';
 import{ theme } from '../../global/styles/theme';
 import { styles } from './style';
+import { SvgProps } from 'react-native-svg';
 
 type Props = RectButtonProps & {
     title: string;
@@ -20,18 +21,20 @@ const Category = ({
 }: Props) => { 
     const { secondary50, secondary70 } = theme.colors;
   return (
-    <RectButton {..rest}>
+    <RectButton {...rest}>
       <LinearGradient
         style={styles.container}
         colors={[secondary50, secondary70]}
         >
         <View style={[styles.content, {opacity: checked ? 1 : 0.4 }]}>
           <View style={checked ? styles.checked : styles.check}>
+          </View>
+
             <Icon 
               height={48}
               width={48}
             />
-          </View>
+            
           <Text style={styles.title}>
             { title }
           </Text>

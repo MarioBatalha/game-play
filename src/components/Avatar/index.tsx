@@ -22,7 +22,7 @@ const Avatar = ({urlImage}: Props) => {
         colors={[secondary50, secondary70]}
         >
         <Image 
-            source={{ uri: urlImage}}
+            source={{ uri: urlImage,}}
             style={styles.avatar}
         />    
         </LinearGradient>

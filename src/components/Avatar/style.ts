@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         marginRight: 22,
     },
-    Avatar: {
+    avatar: {
         width: 46,
         height: 46,
         borderRadius: 8,
