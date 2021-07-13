@@ -12,13 +12,14 @@
 ![cover](.github/cover.png?style=flat)
 
 
-## 💻 Projeto
-Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
+## 💻 Project
+
+It is a mobile app to help you to connect and organize the moment to enjoy and play with friends. Create a group to play your favorite games.
 
 
 ## :hammer_and_wrench: Features 
 
--   [ ] Autenticação Social OAuth2 com servidor do Discord.
+-   [ ] Social authetication OAuth2 with  Discord server.
 -   [ ] Obtém perfil do usuário cadastro no Discord (username e avatar);
 -   [ ] Lista os servidores do Discord que o usuário faz parte;
 -   [ ] Permite realizar o agendamento de partidas;
@@ -29,7 +30,7 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 -   [ ] Disponibiliza a função de Logout.
 
 
-## ✨ Tecnologias
+## ✨ Tecnologies
 
 -   [ ] React Native
 -   [ ] Typescript
@@ -54,10 +55,10 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 
-## Executando o projeto
+## Execute the project
 
-Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-Em seguida, inicie o projeto.
+Using **yarn** or **npm install** to install project dependencies.
+Start the project.
 
 ```cl
 expo start
