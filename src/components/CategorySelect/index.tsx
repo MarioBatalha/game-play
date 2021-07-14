@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 
 
@@ -15,7 +15,7 @@ type Props = {
 
 const CategorySelect = ({categorySelected, setCategory}: Props) => {
     return (
-        <ScrollView
+        <View
           horizontal
           style={styles.container}
           showsHorizontalScrollIndicator={false}
@@ -32,7 +32,8 @@ const CategorySelect = ({categorySelected, setCategory}: Props) => {
                    />
               })
           }
-         </ScrollView>
+            <Text>Menu scrolling</Text>
+         </View>
     );     
 }
 
