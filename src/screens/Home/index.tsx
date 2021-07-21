@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { 
-  View,
-  Text
-  } from 'react-native';
+import { View, Text } from 'react-native';
 
 import{ styles } from './style';
 import Profile from '../../components/Profile';
