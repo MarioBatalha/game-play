@@ -7,7 +7,6 @@ import { styles } from './style';
 const ListDivider = () => {
   return(
    <View style={styles.container}>
-    
    </View>
   );
 }
